@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>gitpreview@lanorise.ga</em:id>
+		<em:type>2</em:type>
+		<em:name>Git Preview Mobile</em:name>
+		<em:version>0.1.1</em:version>
+		<em:bootstrap>true</em:bootstrap>
+		<em:description>Adds 'Git Preview' menu.</em:description>
+		<em:creator>Esironal</em:creator>
+		
+		<em:homepageURL>http://www.lanorise.ga/</em:homepageURL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{88b9e420-5c93-11e5-a837-0800200c9a66}</em:id>
+				<em:minVersion>15.0</em:minVersion>
+				<em:maxVersion>18.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+
+</RDF>
